@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingEnd="@dimen/padding_right"
+            android:paddingStart="@dimen/padding_left"
+            android:paddingTop="@dimen/padding_top"
+            tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question_1"/>
+
+        <RadioGroup
+            android:id="@+id/question_1_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/question_1_option_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/arsenal"/>
+
+            <RadioButton
+                android:id="@+id/question_1_option_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chelsea"/>
+
+            <RadioButton
+                android:id="@+id/question_1_option_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/west_ham_united"/>
+
+            <RadioButton
+                android:id="@+id/question_1_option_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/qpr"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:text="@string/question_2"/>
+
+        <EditText
+            android:id="@+id/question_2_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/question_2_hint"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/question_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:text="@string/question_3"/>
+
+        <RadioGroup
+            android:id="@+id/question_3_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/question_3_option_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/michael_owen"/>
+
+            <RadioButton
+                android:id="@+id/question_3_option_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/david_beckham"/>
+
+            <RadioButton
+                android:id="@+id/question_3_option_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/robbie_keane"/>
+
+            <RadioButton
+                android:id="@+id/question_3_option_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/paul_scholes"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_top"
+            android:text="@string/question_4"/>
+
+        <CheckBox
+            android:id="@+id/eto_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/samuel_eto"/>
+
+        <CheckBox
+            android:id="@+id/pogba_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paul_pogba"/>
+
+        <CheckBox
+            android:id="@+id/ibrahimovic_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zlatan_ibrahimovic"/>
+
+        <CheckBox
+            android:id="@+id/bale_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gareth_bale"/>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/submit_button_txt"
+            android:textColor="#ffafff"
+            android:background="@color/colorAccent"/>
+
+    </LinearLayout>
+
+</ScrollView>

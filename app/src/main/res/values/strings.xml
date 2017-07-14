@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question_1">1. Which was the first English football club to install an artificial pitch?</string>
+    <string name="arsenal">Arsenal</string>
+    <string name="chelsea">Chelsea</string>
+    <string name="west_ham_united">West Ham United</string>
+    <string name="qpr">QPR</string>
+    <string name="question_2">2. what year did Arsene Wenger joined Arsenal as a manager?</string>
+    <string name="question_2_hint">Around the 90\'s</string>
+    <string name="question_3">3. Who scored England\'s goal against Brazil in the 2002 World Cup?</string>
+    <string name="michael_owen">Michael Owen</string>
+    <string name="david_beckham">David Beckham</string>
+    <string name="robbie_keane">Robbie Keane</string>
+    <string name="paul_scholes">Paul Scholes</string>
+    <string name="question_4">4. Which of these players were bought at a record price in Europe?</string>
+    <string name="samuel_eto">Samuel Eto</string>
+    <string name="paul_pogba">Paul Pogba</string>
+    <string name="zlatan_ibrahimovic">Zlatan Ibrahimovic</string>
+    <string name="gareth_bale">Gareth Bale</string>
+    <string name="submit_button_txt">Submit</string>
+</resources>
